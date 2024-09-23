@@ -97,7 +97,10 @@ int	main(int argc, char **argv)
 		return (1);
 	}
 	if (!(is_integer(argv[1])))
+	{
 		ft_printf("'%s' is not a valid PID!\n", argv[1]);
+		return (1);
+	}
 	pid = ft_atoi(argv[1]);
 	send_message(pid, argv[2]);
 	return (0);
