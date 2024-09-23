@@ -140,7 +140,7 @@ make re
 
 ## License
 
-This project is developed by AbdulAzeez Shobajo. It is free to use and modify.
+This project is developed by AbdulAzeez Shobajo. It is from the 42 school project.
 
 ---
 
